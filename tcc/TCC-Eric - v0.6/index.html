@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Y, O que ja aconteceu</title>
+    <link href="css/style.css" rel="stylesheet">   
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@700&display=swap');
+    </style> 
+    <link rel="shortcut icon" href="imgs/y-logo.ico" type="image/x-icon">
+    <link href="css/id.css" rel="stylesheet">
+    <link href="css/class.css" rel="stylesheet">
+</head>
+<body>
+    <!--Tela Inicial-->
+    <img src="imgs/y-logo.png">
+    <div id="reg">
+        
+        <div>
+            <h1 id="titulo">ja aconteceu</h1>
+        
+        </div>
+        
+        <h1>Inscreva-se agora</h1>
+        
+        <button id="TrigModal">Criar Conta</button>
+       
+        <div id="log">
+         <h3>Ja possui uma conta?</h3>
+        <button id="TrigModal_login">Entrar</button>
+    
+        </div>
+
+    </div>
+    <!--Modal-->
+    <div id="1modal" class="modal">
+
+        <div class="modal_content">
+            <span id="fechar" class="fechar">&times;</span>
+            <div id="controler">
+                <div id="modal_content_style">
+                    <h1 id="title">Crie sua Conta</h1>
+                    <input id="nome-criar" type="text" placeholder="Usuario">
+                    <input id="email-criar" type="email" placeholder="Email">
+                    <input id="senha-criar" type="password" placeholder="Senha">
+                    <p id="alerta"></p>
+                    <button id="submit" class="login">Cadastrar</button>
+            </div>
+        </div>
+
+<script src="js/app.js"></script>
+<script src="js/cadastro.js"></script>
+<script src="js/login.js"></script>
+</body>
+</html>
